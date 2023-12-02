@@ -1,10 +1,7 @@
 'use client'
 
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import React, { useState } from "react";
-
-import { Button } from "@/components/ui/button";
 import MovieCard from "@/components/movie-card";
+import React from "react";
 import { Response } from "@/lib/types/api";
 import axios from "axios";
 

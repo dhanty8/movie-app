@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import { getData, getDataPopular } from "@/lib/apis/movie";
 
 import MovieCard from "@/components/movie-card";
+import React from "react";
 
 const Movie = async () => {
   const nowPlaying = await getData();
